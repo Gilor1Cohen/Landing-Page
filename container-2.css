@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-2 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.container-2 .main-h1-2 {
+  color: #ff7940;
+  font-size: 4rem;
+}
+
+.container-2 .section-2-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin: 5rem auto;
+  width: 75%;
+}
+
+.container-2 .section-2-a .div-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 10px solid gold;
+  padding: 50px 25px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  margin: auto;
+}
+
+.container-2 .section-2-a .div-1 h1 {
+  font-size: 2.5rem;
+  color: gold;
+}
+
+.container-2 .section-2-a .div-1 p {
+  text-align: center;
+}
+
+.section-2-a .div-1 .a-1-btn {
+  border: gold;
+  background-color: gold;
+  color: #fff;
+  padding: 9px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.container-2 .section-2-a .div-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 10px solid cornflowerblue;
+  padding: 50px 25px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container-2 .section-2-a .div-2 h1 {
+  font-size: 2.5rem;
+  color: cornflowerblue;
+}
+
+.section-2-a .div-2 .a-2-btn {
+  border: cornflowerblue;
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 9px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.container-2 .section-2-a .div-2 p {
+  text-align: center;
+}
+
+.container-2 .section-2-a .div-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 10px solid red;
+  padding: 50px 25px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container-2 .section-2-a .div-3 h1 {
+  font-size: 2.5rem;
+  color: red;
+}
+
+.section-2-a .div-3 .a-3-btn {
+  border: red;
+  background-color: red;
+  color: #fff;
+  padding: 9px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.container-2 .section-2-a .div-3 p {
+  text-align: center;
+}
+
+.angular {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  margin: auto;
+  z-index: 200;
+  background-color: #fff;
+}
+
+.angular .X-angular {
+  position: absolute;
+  left: 2.5rem;
+  top: 2rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.angular h1 {
+  margin: auto;
+}
+
+.angular p {
+  margin: auto;
+}
+
+.react {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  margin: auto;
+  z-index: 200;
+  background-color: #fff;
+}
+
+.react .X-react {
+  position: absolute;
+  left: 2.5rem;
+  top: 2rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.react h1 {
+  margin: auto;
+}
+
+.react p {
+  margin: auto;
+}
+
+.js {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  margin: auto;
+  z-index: 200;
+  background-color: #fff;
+}
+
+.js .X-js {
+  position: absolute;
+  left: 2.5rem;
+  top: 2rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.js h1 {
+  margin: auto;
+}
+
+.js p {
+  margin: auto;
+}
+
+.hidden-2 {
+  display: none;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  /* התאם את רוחב המכולות והמקטעים */
+  .container-2,
+  .container-2 .section-2-a .div-1,
+  .container-2 .section-2-a .div-2,
+  .container-2 .section-2-a .div-3 {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  /* התאם את גודל הכותרות */
+  .container-2 .main-h1-2,
+  .container-2 .section-2-a .div-1 h1,
+  .container-2 .section-2-a .div-2 h1,
+  .container-2 .section-2-a .div-3 h1 {
+    font-size: 2rem;
+  }
+
+  /* התאם את הפריסה */
+  .container-2 .section-2-a {
+    flex-direction: column; /* שנה את הכיוון ליצירת פריסה עמודית */
+    align-items: center; /* מרכז את הילדים */
+    margin: 1rem auto;
+  }
+
+  /* התאם את גודל המכולות */
+  .container-2 .section-2-a .div-1,
+  .container-2 .section-2-a .div-2,
+  .container-2 .section-2-a .div-3 {
+    width: 100%; /* שינוי הרוחב ל-100% */
+    margin: 1rem auto;
+    padding: 25px;
+  }
+}

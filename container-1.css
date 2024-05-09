@@ -1,0 +1,372 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  z-index: 1;
+}
+
+.header {
+  position: absolute;
+  top: 3rem;
+  right: 7rem;
+}
+
+.header .login {
+  border: #ff7940;
+  background-color: #ff7940;
+  color: #fff;
+  padding: 9px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.header .sign-up {
+  border: 1px solid #ff7940;
+  background-color: transparent;
+  color: #fff;
+  padding: 9px 35px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.section-1 h1 {
+  font-size: 4rem;
+  z-index: 1;
+}
+
+.section-1 h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.container-1 {
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sign-up-page {
+  z-index: 200;
+  position: absolute;
+  color: #fff;
+  background-color: #8887c5;
+  border-radius: 9px;
+  width: 30%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.sign-up-page .X-sign-up {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.sign-up-page h1 {
+  font-size: 2rem;
+  margin-top: auto;
+}
+
+.sign-up-page h2 {
+  font-size: 1rem;
+  margin-top: auto;
+}
+.sign-up-page .sign-up-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  height: 45%;
+}
+
+.sign-up-form .username {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 110%;
+  height: 26%;
+  margin: auto 0;
+}
+
+.sign-up-form .username i {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.sign-up-form .username input {
+  font-size: 1.2rem;
+  border: none;
+  width: 80%;
+}
+
+.sign-up-form .email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 110%;
+  height: 26%;
+  margin: auto 0;
+}
+
+.sign-up-form .email i {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.sign-up-form .email input {
+  font-size: 1.2rem;
+  border: none;
+  width: 80%;
+}
+
+.sign-up-form .password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 110%;
+  height: 26%;
+  margin: auto 0;
+}
+
+.sign-up-form .password i {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.sign-up-form .password input {
+  font-size: 1.2rem;
+  border: none;
+  width: 80%;
+}
+
+.sign-up-page hr {
+  width: 70%;
+}
+
+.sign-up-page h3 {
+  margin-top: auto;
+  font-size: 1rem;
+}
+
+.sign-up-page .icons {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.sign-up-page .icons i {
+  font-size: 1.5rem;
+}
+
+.sign-up-page .submit {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-page {
+  z-index: 200;
+  position: absolute;
+  color: #fff;
+  background-color: #8887c5;
+  border-radius: 9px;
+  width: 30%;
+  height: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.login-page .X-login {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.login-page h1 {
+  font-size: 2rem;
+  margin-top: auto;
+}
+
+.login-page h2 {
+  font-size: 1rem;
+  margin-top: auto;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  height: 45%;
+}
+
+.login-form .username {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 110%;
+  height: 26%;
+  margin: auto 0;
+}
+
+.login-form .username i {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.login-form .username input {
+  font-size: 1.2rem;
+  border: none;
+  width: 80%;
+}
+
+.login-form .password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 110%;
+  height: 26%;
+  margin: auto 0;
+}
+
+.login-form .password i {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.login-form .password input {
+  font-size: 1.2rem;
+  border: none;
+  width: 80%;
+}
+
+.login-page hr {
+  width: 70%;
+}
+
+.login-page h3 {
+  margin-top: auto;
+  font-size: 1rem;
+}
+
+.login-page .icons {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.login-page .icons i {
+  font-size: 1.5rem;
+}
+
+.login-page .submit {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden-1 {
+  display: none;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .container-1 {
+    width: 150%;
+    height: 100vh;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    z-index: 1;
+  }
+
+  .header {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+  }
+
+  .sign-up-page {
+    z-index: 200;
+    position: absolute;
+    color: #fff;
+    background-color: #8887c5;
+    border-radius: 9px;
+    width: 70%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .login-page {
+    z-index: 200;
+    position: absolute;
+    color: #fff;
+    background-color: #8887c5;
+    border-radius: 9px;
+    width: 70%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+}
